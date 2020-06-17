@@ -1,0 +1,356 @@
+<!-- All images are stock images courtesy of https://pixabay.com/-->
+<!-- This code has been inspired/based off of a bootstrap example website https://getbootstrap.com/docs/4.5/examples/carousel/-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <title>Carousel Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Style sheet (CSS) and JavaScript scripts necessary to use Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> 
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#" style="font-size: 50px;">Lux Hair
+      <img src="scissors.svg" width="50" height="50" alt="" loading="lazy" id="brandImg"> 
+
+    </a>
+  </nav>
+</header>
+
+<main role="main">
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol> -->
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/>
+        <img src="several-scissors.jpg" style="width:500px; height:500px">
+      </svg>
+        <div class="container">
+          <div class="carousel-caption text-left">
+            <h1>Treat yourself.</h1>
+            <p>Book an appointment today.</p>
+            <p><a class="btn btn-lg btn-primary" href="#book" role="button">Let's go</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+    <!-- <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a> -->
+  </div>
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+   
+
+    <!-- START THE FEATURETTES -->
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Need a new color? <span class="text-muted">Prepare to be mind blown.</span></h2>
+        <p class="lead">Our stylists are experts at giving you a fresh new color, or touching up those roots. </p>
+        <p><a class="btn btn-lg btn-primary" href="#services" role="button">Check out all our services. </a></p>
+        </div>
+      
+      <div class="col-md-5">
+        <img src="color.jpg" style="width:500px; height:500px">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    
+      <div class="row justify-content-center">
+        <div class="col-auto">
+         <h2 style="font-size:50px">Meet the experts</h2> 
+          </div>
+      </div>
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <!-- <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg> -->
+        <img src="annabelle.jpg" style="filter: grayscale(100%); border-radius: 50%; width:140px; height:140px">
+
+        <h2>Annabelle</h2>
+        <p>An expert in curly hair and all things color.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="isabelle.jpg" style="filter: grayscale(100%); border-radius: 50%; width:140px; height:140px">
+        <h2>Isabelle</h2>
+        <p>Speedy Isa. She'll give you a great cut, and quick too!</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="belle.jpg" style="filter: grayscale(100%); border-radius: 50%; width:140px; height:140px">
+        <h2>Belle</h2>
+        <p>Our grand master. She's been cutting hair for 20 years.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
+        <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div> -->
+
+    <hr class="featurette-divider">
+
+    <div class="row justify-content-center" id="services">
+      <div class="col-auto">
+       <h2 style="font-size:50px">What we offer</h2> 
+        </div>
+    </div>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="longHair.jpg" style="width:100%; height:225px">
+              <div class="card-body">
+                <h5 class="card-title">Long Hair Styling/Cut</h5>
+                <small class="text-muted">$40</small>
+
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+              <img src="shortHair.jpg" style="width:100%; height:225px">
+              <div class="card-body">
+                <h5 class="card-title">Short Hair Styling/Cut</h5>
+                <small class="text-muted">$25</small>
+
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="mediumHair.jpg" style="width:100%; height:225px">
+              <div class="card-body">
+                <h5 class="card-title">Medium Hair Styling/Cut</h5>
+                <small class="text-muted">$35</small>
+
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="colorHair.jpg" style="width:100%; height:225px">
+              <div class="card-body">
+                <h5 class="card-title">Color</h5>
+                <small class="text-muted">Varies according to length $60-$120</small>
+
+                <div class="d-flex justify-content-between align-items-center">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+    <div class="row justify-content-center" id="book">
+      <div class="col-auto">
+       <h2 style="font-size:50px">Book your appointment</h2> 
+        </div>
+    </div>
+
+      <div class="container">
+        <div id="accordion">
+          <div class="card">
+              <div class="card-header" id="accordian-cards">
+                  <a class="card-link" data-toggle="collapse" href="#collapseService">Choose a service</a>
+              </div>
+              <div id="collapseService" class="collapse show" data-parent="#accordion">
+                  <div class="card-body">
+                      <div class="form-group">
+                        <label for="exampleFormControlSelect1">Select a service</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                          <option>Long Hair Styling/Cut</option>
+                          <option>Short Hair Styling/Cut</option>
+                          <option>Medium Hair Styling/Cut</option>
+                          <option>Color Hair Styling/Cut</option>
+                        </select>
+                      </div>
+                  </div>
+              </div>
+          <div class="card">
+              <div class="card-header" id="accordian-cards">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseDate">Choose a date</a>
+              </div>
+              <div id="collapseDate" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                      <!-- Bootstrap has various input components. Some examples are given here: -->
+                      <!-- Component shown here: https://v4-alpha.getbootstrap.com/components/forms/#textual-inputs -->
+                      <div class="form-group row">
+                          <label for="dateTimeInput" class="col-2 col-form-label">Pick a date and time</label>
+                          <div class="col-10">
+                              <input class="form-control" type="datetime-local" value="2011-08-19T13:45:00" id="dateTimeInput">
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="card">
+              <div class="card-header" id="accordian-cards">
+                  <a class="collapsed card-link" data-toggle="collapse" href="#collapseClientInfo">Your Information</a>
+              </div>
+              <div id="collapseClientInfo" class="collapse" data-parent="#accordion">
+                  <div class="card-body">
+                    <form>
+                      <div class="form-group">
+                      <div class="row">
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="First name">
+                        </div>
+                        <div class="col">
+                          <input type="text" class="form-control" placeholder="Last name">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email" aria-describedby="emailHelp">
+                    </div>
+                    <div class="form-group">
+                      <input type="phone-number" class="form-control" placeholder="Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+                    </div>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your personal information with anyone else.</small>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+      
+  </div>
+  <hr class="featurette-divider">
+
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+</div><!-- /row -->
+</div><!-- /container --></div><!-- /widget-wrap --></section></main>
+
+<footer id="footer">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <aside id="text-4" class="widget_text widget group"><h3 class="widget-title">Visit Us</h3>	
+        <div class="textwidget">
+          <p>403 Mal St, Ottawa, ON K2P 1L9<br/>
+              </p>
+              <p>1-800-237-0812<br />
+             </p>
+        </div>
+  </aside>	
+	</div>
+
+    <div class="col-sm-4">
+      <aside id="text-4" class="widget_text widget group"><h3 class="widget-title">Hours</h3>	
+        		<div class="textwidget">
+              <p>Tuesday to Friday<br/>
+                  9:00am - 6:00pm</p>
+                  <p>Saturday<br />
+                  9:00am - 4:00pm</p>
+            </div>
+      </aside>				
+    </div>
+
+    <div class="col-sm-4">
+      <aside id="custom_html-2" class="widget_text widget_custom_html widget group"><h3 class="widget-title">Check our Reviews</h3><div class="textwidget custom-html-widget"><p>
+<a href=# ><i class="fa fa-yelp"></i> Yelp</a>
+</p>
+<p>
+<a href=# ><i class="fa fa-facebook-f"></i> Facebook</a>
+</p>
+<p>
+<a href=# ><i class="fa fa-google"></i> Google Reviews</a>
+</p></div></aside>				</div>
+  </div>
+</div>
+
+<!-- <div class="container footer-credits">
+  <div class="row">
+    <div class="col-xs-12">
+      <p>Website developed and maintained by <a href="https://happybits.ca" rel="nofollow">Happy Bits</a>.</p>
+    </div>
+  </div>
+</div> -->
+</footer>
+
+</div> <!-- #page -->
+</main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="../assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="../assets/dist/js/bootstrap.bundle.js"></script></body>
+</html>
